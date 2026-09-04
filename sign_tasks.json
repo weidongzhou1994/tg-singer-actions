@@ -1,0 +1,35 @@
+{
+  "chats": [
+    {
+      "chat_id": 7902962823,
+      "name": "vemby",
+      "delete_after": 60,
+      "actions": [
+        {
+          "action": 1,
+          "text": "/checkin"
+        },
+        {
+          "action": 3,
+          "text": "试试手气"
+        }
+      ],
+      "action_interval": 2.0
+    },
+    {
+      "chat_id": 8254176406,
+      "name": "星河115",
+      "delete_after": 60,
+      "actions": [
+        {
+          "action": 1,
+          "text": "/sign"
+        }
+      ],
+      "action_interval": 2.0
+    }
+  ],
+  "sign_at": "6 6 * * *",
+  "random_seconds": 180,
+  "sign_interval": 1
+}
